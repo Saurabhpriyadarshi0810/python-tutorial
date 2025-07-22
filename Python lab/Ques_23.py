@@ -1,0 +1,13 @@
+# factorial using recursion
+
+def factorial(num):
+    
+    if (num == 1 or num == 0 ):
+        return 1
+    else:
+       return num * factorial(num-1) 
+        
+
+num = int (input("enter the number"))
+fact = factorial(num)
+print("factorial of ",num,"is",fact)

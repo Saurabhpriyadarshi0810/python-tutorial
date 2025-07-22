@@ -1,18 +1,14 @@
-num = int ( input ("enter the number "))
+# armstrong number
 
-negative = 0
-positive = 0
-zero = 0
-
-while ( num != -1):
-    if(num>0):
-        positive += 1
-    elif(num<0):
-        negative += 1
-    elif(num == 0):
-        zero += 1
-    num = int ( input ("enter the number "))
+num = int(input("enter a number:"))
+sum = 0
+temp = num
+while (temp > 0):
+    digit = temp % 10
+    sum += digit ** 3
+    temp //= 10
+if num == sum:
+    print(num, "is an Armstrong number.")
+else:
+    print(num, "is not an Armstrong number.")
     
-print("positive no entered =",positive)
-print("negative no entered =",negative)
-print("zeros entered =",zero)

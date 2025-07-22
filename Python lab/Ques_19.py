@@ -1,10 +1,8 @@
-# factorial
+# find cube  of 1 to  30 using function
 
-num = int (input("enter the number: "))
+def cube(x):
+    return x**3 
 
-factorial = 1 
-
-for i in range ( 1, num+1):
-    factorial *= i 
-    
-print("factorail of",num,"is",factorial)
+for i in range(1,31):
+     num = cube(i)
+     print("cube of ",i,"is",num)

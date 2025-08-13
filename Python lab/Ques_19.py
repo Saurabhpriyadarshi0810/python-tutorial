@@ -5,4 +5,4 @@ def cube(x):
 
 for i in range(1,31):
      num = cube(i)
-     print("cube of ",i,"is",num)
+     print("cube of ",i,"is",num) 

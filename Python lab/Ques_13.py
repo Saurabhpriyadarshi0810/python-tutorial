@@ -1,7 +1,7 @@
 #fibbonaci series
 
 term = int ( input ("enter number of terms:"))
-first = 1
+first = 0
 second = 1
 
 if term == 1:

@@ -8,5 +8,5 @@ main_string = str1 + str2
 print(main_string)
 
 print(main_string[1:])
-print(main_string[3:8:2])
+print(main_string[3:8:3])
 print(main_string[::-1])

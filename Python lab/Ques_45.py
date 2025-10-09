@@ -1,0 +1,5 @@
+tup = (1,2,3,4,5,6,7,8,9,10)
+print("tup[3:6] =",tup[3:6])
+print("tup[:8] =",tup[:8])
+print("tup[4:] =",tup[4:])
+print("tup[:] =",tup[:])
